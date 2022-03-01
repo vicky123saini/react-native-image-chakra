@@ -11,11 +11,17 @@ npm install react-native-image-chakra
 ## Usage
 
 ```js
-import { multiply } from "react-native-image-chakra";
+import ImageChakra from 'react-native-image-chakra';
 
 // ...
 
-const result = await multiply(3, 7);
+<ImageChakra 
+      data={{
+        centerImage:{uri:`https://yourimageresource.com/content/App/assets/images/spinner/Hand.png`},
+        chakraImage:{uri:`https://yourimageresource.com/Content/Chakra/m2tkbjnvx2g.png`},
+        fingerImage:{uri:`https://yourimageresource.com/content/App/assets/images/spinner/Spin-wheel-04.png`}
+      }}
+      onSpinnCompleted={(deg)=> alert(deg)}/>
 ```
 
 ## Contributing
