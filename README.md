@@ -2,6 +2,9 @@
 
 Image chakra
 
+![image](https://user-images.githubusercontent.com/2674996/156299682-f9ca1c42-14d7-4241-b6dc-924960196b99.png)
+
+
 ## Installation
 
 ```sh
